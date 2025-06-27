@@ -10,7 +10,6 @@
       src="https://kit.fontawesome.com/c8aeb6021f.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="manifest" href="manifest.json" />
   </head>
 
   <body>
@@ -590,7 +589,7 @@
     </section>
 
     <!-- Steps Section  -->
-    <section class="py-6  lg:px-8 px-6 lg:py-16 mx-auto max-w-7xl font-Inter">
+    <section class="py-6 px-6 lg:px-8 lg:py-16 mx-auto xl:px-0 max-w-7xl font-Inter">
       <h1 class="text-[45px] font-bold">How it works</h1>
       <!-- steps  -->
       <div id="steps" class="mt-12 space-y-12">
@@ -815,7 +814,7 @@
     </section>
 
     <!-- Details Handle  -->
-    <section class="py-12 lg:px-8 px-6 sm:py-20 mx-auto 2xl:px-0 max-w-7xl font-Inter">
+    <section class="py-12 lg:px-8 px-6 sm:py-20 mx-auto xl:px-0 max-w-7xl font-Inter">
       <h1 class="text-5xl font-bold mb-12 leading-tight md:w-[480px]">
         ToDesktop handles the details
       </h1>
@@ -970,7 +969,7 @@
     </section>
 
     <!-- Customer Stories  -->
-    <section class="mt-8 lg:px-8 px-6 py-12 mx-auto max-w-7xl font-Inter">
+    <section class="mt-8 lg:px-8 px-6 py-12 mx-auto xl:px-0 max-w-7xl font-Inter">
       <h1 class="text-5xl font-semibold pb-[56px]">Customer stories</h1>
       <div
         id="cards"
@@ -1127,40 +1126,31 @@
     </section>
 
     <!-- Plans  -->
-    <section class="mt-8 lg:px-8 px-6 py-9 mx-auto max-w-7xl font-Inter">
+    <section class="mt-8 lg:px-8 px-6 py-9 mx-auto xl:px-0 max-w-7xl font-Inter">
       <!-- heading  -->
       <div
         id="heading"
         class="flex justify-between items-start gap-16 lg:gap-0 lg:items-end flex-col lg:flex-row "
       >
-        <h1 class="text-5xl font-semibold md:w-[500px]">
+        <h1 class="text-5xl font-semibold sm:w-[550px]">
           Choose a plan that fits your needs
         </h1>
-        <div
-          class="relative border border-slate-300 bg-gray-50 flex text-[16px] justify-center items-center p-[3.1px] rounded-lg font-semibold"
-        >
-          <div
-            id="slider"
-            class="bg-white shadow-md h-[90%] h- flex w-1/2 left-[3px] top-[2.5px] z-0 rounded-lg absolute transition-all duration-500"
-          ></div>
-          <span
-            id="monthly"
-            class="z-10 px-[15px] py-[11px] min-w-[180px] text-center rounded cursor-pointer"
-            >Monthly</span
-          >
-          <span
-            id="yearly"
-            class="z-10 px-[15px] py-[11px] min-w-[180px] text-center rounded cursor-pointer"
-          >
-            Yearly
-            <span
-              class="text-blue-600 px-3 py-1 rounded-full bg-blue-100 text-[14px]"
-            >
-              -20%</span
-            >
-          </span>
+        <div class=" flex relative border border-slate-300 bg-gray-50 text-[16px] items-center p-[3px] rounded-lg ">
+            <div id="slider" class=" min-w-[182px] z-0  h-[88%] absolute bg-white top-[3px] left-[3px] transition-all duration-500 rounded-lg  shadow-md">
+            </div>
+            <div id="monthly" class="z-10 min-w-[180px] text-center px-3 py-3 cursor-pointer">
+              Monthly
+            </div>
+            <div id="yearly" class="z-10 min-w-[180px] text-center px-3 py-3 text-3 cursor-pointer">
+              Yearly
+              <span class="text-blue-600 px-3 py-1 rounded-full bg-blue-100 text-[14px]">
+              -20%
+           </span>
+            </div>
         </div>
       </div>
+
+      
       <!-- cards -->
       <div
         class="grid lg:grid-cols-3 lg:grid-rows-1 mt-[84px] gap-8 grid-rows-3"
@@ -1327,7 +1317,7 @@
         </div>
         <div class="p-6 pt-10">
           <div
-            class="bg-gray-100 py-8 text-black text-center lg:flex lg:flex-col px-16 rounded-xl"
+            class="bg-gray-100 py-8 text-black text-center lg:flex lg:flex-col px-6 sm:px-16 rounded-xl"
           >
             <p class="text-[16px] text-gray-500 font-semibold">
               Secure, reliable cross-platform desktop apps for enterprise teams.
@@ -1347,7 +1337,7 @@
     </section>
 
     <!-- FAQS  -->
-    <section class="lg:px-8 px-6 mt-20 mx-auto max-w-7xl font-Inter">
+    <section class="lg:px-8 px-6 mt-20 lg:px-8 mx-auto xl-px-0 max-w-7xl font-Inter">
       <h1 class="text-5xl font-semibold">FAQs</h1>
       <div id="FAQS" class="flex flex-col md:flex-row gap-6 pt-10">
         <!--faq section1  -->
@@ -1583,7 +1573,7 @@
     </section>
 
     <!-- Footer  -->
-    <footer class="px-6 lg:px-8 mx-auto max-w-7xl font-Inter">
+    <footer class="px-6 lg:px-8 mx-auto max-w-7xl xl-px-0 font-Inter">
       <div class=" border border-gray-200 bg-gray-50 px-4 py-12 gap-10 sm:px-6 flex flex-col lg:flex-row-reverse justify-between items-center lg:px-8 rounded-2xl max-w-7xl mx-auto mt-20 ">
         <div class="flex items-center justify-center flex-col lg:flex-row text-[18px] gap-8 text-gray-700 ">
           <a href="/" class="hover:text-gray-900 ">
