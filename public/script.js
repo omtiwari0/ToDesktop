@@ -84,6 +84,6 @@ blocks.forEach((block) => {
         const icon = block.querySelector("i");
         const content = block.querySelector(".faq-content");
         content.classList.toggle("hidden");
-        icon.classList.toggle("rotate-0");
+        icon.classList.toggle("-rotate-180");
     })
 }); 
