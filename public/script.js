@@ -70,9 +70,9 @@ monthly.addEventListener("click", () => {
 
 })
 yearly.addEventListener("click", () => {
-    slider.style.transform = "translateX(97%)";
     essential.innerText = "$100";
     proffesional.innerText = "$240"
+    slider.style.transform = "translateX(100%)";
 })
 
 
@@ -84,6 +84,6 @@ blocks.forEach((block) => {
         const icon = block.querySelector("i");
         const content = block.querySelector(".faq-content");
         content.classList.toggle("hidden");
-        icon.classList.toggle("-rotate-180");
+        icon.classList.toggle("rotate-0");
     })
-}); 
+});
